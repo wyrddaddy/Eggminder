@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="co.roncartwright.eggminder.FlockChangeActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Flock Change"/>
+
+    <Button
+        android:id="@+id/flock_setup_btn"
+        android:text="Flock Setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="flockSetupBtnClick"
+        />
+
+    <Button
+        android:id="@+id/flock_stats_btn"
+        android:text="Flock Stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="flockStatsBtnClick"
+        />
+
+    <Button
+        android:id="@+id/egg_count_btn"
+        android:text="Change Egg Count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eggCountBtnClick"
+        />
+
+    <Button
+        android:id="@+id/change_flock_btn"
+        android:text="Change Flock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeFlockBtnClick"
+        />
+</LinearLayout>
